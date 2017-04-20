@@ -1,0 +1,198 @@
+.mobile-banner1{
+	width: 100%;
+	padding: 1%;
+	display: table;
+	color: white;
+	background-color: #c5027f;
+	font-size: .8em;
+	text-align: center;
+}
+.mobile-banner1 p{
+ display: inline;
+}
+
+.mobile-banner1 .fa{
+	font-size: 1em !important ;
+	color:white; 
+	text-align: right;
+	display: inline;
+}
+
+.mobile-banner2{
+	width: 100%;
+	padding: 1%;
+	display: table;
+	color: white;
+	background-color: #009ee2;
+	font-size: .8em;
+	text-align: center;
+}
+.mobile-banner2 p{
+ display: inline;
+}
+
+.mobile-banner2 .fa{
+	font-size: 1em !important ;
+	color:white; 
+	text-align: right;
+	display: inline;
+}
+
+.banner{
+	display: none;
+}
+
+
+.brand{
+	display: none;
+	max-height: 20px;
+}
+
+.banner p {
+  padding: 5px;
+  display: table-cell;
+}
+
+
+.mobile-logo{
+}
+
+
+.welcome{
+	display: none;
+}
+
+.about{
+	position: relative;
+	text-align: center;
+}
+
+ .pink {
+    position: relative;
+    margin-left: 0%;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-height: 50px;
+    border-top: 8vw solid #c5027f;
+}
+
+#me{
+  position: absolute;
+  text-align:right;
+  font-size: 7vw;
+  top: -9.5vw;
+  left: 36%;
+  color: white;
+}
+
+#we{
+  color:#009ee2;
+  text-align:center;
+  margin-left: 0%;
+  font-size: 7vw;
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: -7%;
+    
+}
+
+
+div.box2 {
+	margin: 10%;
+  background:
+     linear-gradient(
+       to left,
+       #c5027f 0, 
+       #c5027f 43.3%,
+       white 23.3%, 
+       white 50.6%, 
+       #009ee2 5.6%, 
+       #009ee2 ) top no-repeat,
+     linear-gradient(
+       to right,
+       #009ee2 0, 
+       #009ee2 33.3%,
+       white 23.3%, 
+       white 40.3%, 
+       #c5027f 10.6%, 
+       #c5027f ) bottom no-repeat,
+     linear-gradient(
+       to top,
+       #009ee2 0,  
+       #009ee2 ) left no-repeat,
+     linear-gradient(
+       to bottom,
+       #c5027f 0, 
+       #c5027f ) right no-repeat;
+   background-size:100% 3px, 100% 3px,  3px 100%,  3px 100% ;
+ }
+
+ .text{
+    padding: 5%;
+    padding-left: 7%;
+    font-size: 14px;
+ }
+
+
+ .paralelo {
+    position: relative;
+    margin-left: 12%;
+    left:0;
+    padding-left: 0;
+    text-align: left;
+    width: 70%;
+    min-height: 50px;
+    border-top: 8vw solid #c5027f;
+    border-right: 30px solid transparent;
+  }
+
+
+ .who { 
+    position: absolute; /* -- add this line */
+    min-width: 50px;
+    text-align: center;
+    top: -9.5vw; /* -- add this line */
+    left:20%; /* -- add this line */
+    margin-left: 0;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 7vw;
+    color: white;
+}
+
+
+.skewed p {
+    font-size: 5vw;
+    padding: 2%;
+    padding-left: 0px;
+    text-transform: uppercase;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none; 
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.contact {
+    margin-top: 5%;
+    position: relative;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    min-height: 8vw;
+   -webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: #c5027f;
+}
+
+
+ .contct { 
+    position: absolute; /* -- add this line */
+    min-width: 50px;
+    margin-left: 32vw;
+    margin-top: -9.5vw;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 7vw;
+    color: white;
+}
